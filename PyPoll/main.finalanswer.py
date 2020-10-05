@@ -53,8 +53,7 @@ with open(PyPoll, newline='') as csvfile:
 
         outfile.write ("Election Results")
         outfile.write ("--------------------")
-        outfile.write ("Total Votes: {:.3f}% ({})".format(row_count))
-    
+        outfile.write ("Total Votes"== int(row_count))
         outfile.write ("------------------------")
         outfile.write ("Khan: {:.3f}% ({})".format(percentage_Khan, Khan_votes))
         outfile.write ("Correy: {:.3f}% ({})".format(percentage_Correy, Correy_votes))
