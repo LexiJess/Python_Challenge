@@ -4,7 +4,7 @@ The instructions give a lot of information about what is required of the analysi
 
 I was really puzzled by the fact that my code <row_count+=1> worked great sometimes and then, when other code got updated, it got a syntax error. (The code updates did not change anything about that snippet or anything that the snippet referred to.) Any insights on why that would be are welcome. 
 
-Working with dictionaries was new, but all of this is staggering to me. I got the code executed, but, honestly, I'm not sure I could recreate it or account for all of the logic. *see above: trial and error*
+Working with dictionaries was new, but all of this is staggering to me. I got the code executed, but, honestly, I'm not sure I could recreate it or account for all of the logic. *see above: trial and error* There was a lot of Googling and asking the TA's and desperate text threads to code-savvy friends. Redefining the meaning of variables is like trying to pin down the identity of Keyser Soze: current_profit only means one thing for two lines of code, and then it means previous_profit, or maybe it means row_cout+=1 now.  
 
 
 
