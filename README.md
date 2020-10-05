@@ -6,7 +6,7 @@ I was really puzzled by the fact that my code <row_count+=1> worked great someti
 
 Working with dictionaries was new, but all of this is staggering to me. I got the code executed, but, honestly, I'm not sure I could recreate it or account for all of the logic. *see above: trial and error* There was a lot of Googling and asking the TA's and desperate text threads to code-savvy friends. Redefining the meaning of variables is like trying to pin down the identity of Keyser Soze: current_profit only means one thing for two lines of code, and then it means previous_profit, or maybe it means row_cout+=1 now.  
 
-Writing this to a csv file was pretty easy, except for line 56 in the PyPoll set. The writing to CSV command will only take one argument and "Total Votes, row_count" is two arguments. I know this should be fixed, but I'm out of time on this project and I throw myself upon the mercy of the grader. 
+Writing this to a csv file was pretty easy, except for line 56 in the PyPoll set. The writing to CSV command will only take one argument and "Total Votes, row_count" is two arguments. I also struggled with geting the () and the $ appropriately placed around the min/max increase and decrease. I was able to make it work in PyPoll with the dict structure of data, but I didn't get it to work in PyBank, where I couldn't call that index out of the dict. Just getting the $ to show up all by itself...was hard. Again, I am wide open to suggestions on how to do this better. #learning I know these details should be fixed, but I'm out of time on this project and I throw myself upon the mercy of the grader. 
 
 
 
