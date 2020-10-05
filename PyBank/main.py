@@ -1,10 +1,10 @@
 import os
 import csv
 #define pathway of import
-PyBank = os.path.join("..", "python-challenge", "Python_Homework_PyBank.csv")
+PyBank = os.path.join("Resources", "Python_Homework_PyBank.csv")
 
 
-with open('Python_Homework_PyBank.csv', newline='') as csvfile:
+with open(PyBank, newline='') as csvfile:
     cvsreader  = csv.reader(csvfile, delimiter=',',quotechar='|')
     header = next(cvsreader)
     row_count=0
@@ -16,7 +16,8 @@ with open('Python_Homework_PyBank.csv', newline='') as csvfile:
 
     previous_revenue= int(row[1])
     averagechange= int(row[1])- previous_revenue/row_count
-    #the math is wrong on this. How do I make int(row[1]) reference the previous row instead of itself?
+    
+     #the math is wrong on this. How do I make int(row[1]) reference the previous row instead of itself?
 
     for row in csvreader:
         if float(row[1]) > float((row+1)[1]) then
@@ -31,8 +32,7 @@ with open('Python_Homework_PyBank.csv', newline='') as csvfile:
         print min
         print row[0]
     #I think this will make it print both the min value and the column A date that corresponds to the min value's row. 
-
-        
+   
     
 
 
